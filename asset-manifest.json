@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/byte-dance-front/static/css/main.000d8c42.css",
-    "main.js": "/byte-dance-front/static/js/main.e20fc1d9.js",
+    "main.js": "/byte-dance-front/static/js/main.fcb90ff5.js",
     "static/js/453.da9de58b.chunk.js": "/byte-dance-front/static/js/453.da9de58b.chunk.js",
     "static/media/logo.svg": "/byte-dance-front/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/byte-dance-front/index.html",
     "main.000d8c42.css.map": "/byte-dance-front/static/css/main.000d8c42.css.map",
-    "main.e20fc1d9.js.map": "/byte-dance-front/static/js/main.e20fc1d9.js.map",
+    "main.fcb90ff5.js.map": "/byte-dance-front/static/js/main.fcb90ff5.js.map",
     "453.da9de58b.chunk.js.map": "/byte-dance-front/static/js/453.da9de58b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.000d8c42.css",
-    "static/js/main.e20fc1d9.js"
+    "static/js/main.fcb90ff5.js"
   ]
 }
