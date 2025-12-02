@@ -1,0 +1,76 @@
+.filter-form {
+  border: 1px solid #ccc;
+  padding: 10px 20px 10px 20px;
+  margin: 0px 40px 10px 40px;
+  border-radius: 5px;
+  background-color: #f9f6f6;
+}
+.filter-title{
+  font-size: 10px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: left;
+}
+ 
+.filter-label{
+  font-size: 12px;
+  font-weight: 500;
+}
+.filter-item{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.filter-item-row{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+
+}
+.form-input {
+  margin: auto 5px;
+  padding: 5px 8px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  font-size: 12px;
+  color: #333333;
+  transition: all 0.3s ease;
+  flex: 1;
+  width:10%;
+}
+.btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 15%;
+}
+.btn-search {
+  background-color: #409eff;
+  color: #fff;
+}
+.btn-search:hover {
+  background-color: #66b1ff;
+}
+.btn-reset {
+  background-color: #e4e7ed;
+  color: #333333;
+}
+.btn-reset:hover {
+  background-color: #d3d6db;
+}
+
+.btn-insert {
+  background-color: #409eff;
+  color: #fff;
+  text-align: center;
+}
+.btn-insert:hover {
+  background-color: #66b1ff;
+}

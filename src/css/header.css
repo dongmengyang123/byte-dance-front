@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  margin: 0 40px;
+  align-items: center;
+}
+
+.header h1 {
+  margin-right: auto;
+}
+.header span {
+  margin-right: 10px;
+  border: 1px solid rgb(101, 99, 99);
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.header button {
+  margin-left: 20px;
+  background-color: #4fa0f1;
+  border-radius: 5px;
+}
+.header button:hover {
+  background-color: #3a86c4;
+}

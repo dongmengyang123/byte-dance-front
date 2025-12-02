@@ -1,0 +1,199 @@
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  background-color: #fff;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+
+.modal-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #999;
+  cursor: pointer;
+  padding: 0 8px;
+}
+
+.close-btn:hover {
+  color: #333;
+}
+
+/* 表单样式 */
+.modal-form {
+  padding: 20px;
+  display:flex;
+  flex-direction: column;
+}
+
+.form-item {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.form-item label {
+  display: block;
+  margin-bottom: 8px;
+  color: #666;
+  font-size: 14px;
+}
+
+.form-item input,
+.form-item textarea,
+.form-item select {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.form-item textarea {
+  resize: vertical;
+  /* 仅允许垂直拉伸 */
+}
+
+/* 表单底部按钮区 */
+.form-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+/* 按钮样式 */
+.open-modal-btn,
+.cancel-btn,
+.submit-btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.open-modal-btn {
+  background-color: #007bff;
+  color: #fff;
+  width: 200px;
+}
+.open-modal-btn:hover {
+  background-color: #0056b3;
+}
+
+.cancel-btn {
+  background-color: #f5f5f5;
+  color: #666;
+}
+
+.submit-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.cancel-btn:hover {
+  background-color: #eee;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
+/* 错误提示样式 */
+.error-message {
+  color: #ff4d4f;
+  /* antd 错误色 */
+  font-size: 12px;
+  margin-top: 4px;
+  display: block;
+  height: 16px;
+  /* 防止布局跳动 */
+}
+
+/* 申请内容字数统计 */
+.word-count {
+  color: #999;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+/* 申请内容底部容器（错误提示 + 字数统计） */
+.form-footer-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* 可选：输入框聚焦时高亮 */
+.modal-form input:focus,
+.modal-form textarea:focus {
+  outline: none;
+  border-color: #1890ff;
+  /* antd 主色 */
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.search-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.3);
+}
+
+.edit-btn {
+  background-color: #28a745;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.edit-btn:hover {
+  background-color: #218838;
+  box-shadow: 0 2px 8px rgba(40, 167, 69, 0.3);
+  }
+
+

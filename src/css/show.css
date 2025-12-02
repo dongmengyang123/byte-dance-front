@@ -1,0 +1,74 @@
+.table-container{
+  margin: 20px 40px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ccc;
+  overflow-y: auto;
+  max-height: 65vh;
+}
+.show-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  
+}
+
+.show-table th {
+  background-color: #4A90E2;
+  color: white;
+  padding: 12px 8px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  font-weight: normal;
+}
+
+.show-table td {
+  padding: 10px 8px;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+.show-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.show-table tbody tr:hover {
+  background-color: #f0f8ff;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.pass-button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pass-button:hover {
+  background-color: #218838;
+  box-shadow: 0 2px 8px rgba(40, 167, 69, 0.3);
+}
+
+.reject-button {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.reject-button:hover {
+  background-color: #c82333;
+  box-shadow: 0 2px 8px rgba(220, 53, 69, 0.3);
+}
